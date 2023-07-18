@@ -1,0 +1,22 @@
+*{
+    border:0px;
+    Margin:0px;
+}
+
+*{box-sizing: border-box;
+}
+.nav-container{
+ background-color: floralwhite;
+    border: 1px solid red;
+    display: flex;
+}
+.logo-container{
+    width: 50%;
+    border: 1px solid blue;
+    display: flex;
+}
+.menu-item-container{
+    width: 50%;
+    border: 1px solid blue;
+    display: flex;
+}
