@@ -36,6 +36,8 @@
     text-decoration: none;
 }
 .banner-container{
+    border: 2px solid red;
+    margin-top: 20px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -52,4 +54,21 @@
 .banner-right-container{
     width: 50%;
     display: flex;
+}
+
+.gamer-container{
+    margin-top: 20px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gamer-container img{
+    width: 700px;
+    object-fit: cover;
+    margin: right 20px;
+}
+.game-description{
+    width: 700px;
+
 }
