@@ -232,15 +232,13 @@ color:rgb(235, 95, 118);
 /* ====Footer start==================================== */
 
 .ftr-container {
-  border: 1px solid red;
-  height: 400px;
+  /* height: 400px; */
   max-width: 1400px;
   /* background-color: rgb(42, 39, 44); */
   color: white;
 }
 .ftr-container h1 {
   color: crimson;
-  font-size: 40px;
 }
 .ftr-menu {
   display: flex;
@@ -263,22 +261,57 @@ color:rgb(235, 95, 118);
   text-align: center;
   gap: 100px;
 }
+
 .ftr-menu-bottom {
-    display: flex;
-  color: white;
-  font-size: 30px;
-  text-align: center;
+    flex-direction: row;
 }
 
 /* ======================== */
 .ftr-menu-bottom{
-    display: block;
-     margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    border-radius: 5px;
-    gap:30px;
+  text-align: center;
 }
 .copy-right{
     text-align: center;
 }
+
+.ftr-last{
+text-align: center;
+}
+
+
+/* Responsive ============================================ */
+/* @media screen and (max-width:576px){
+  .nav-container {
+      max-width: 100%;
+   flex-direction: column;
+    margin: 0 auto;
+  }
+ 
+  .logo-container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .menu-item-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .banner-container {
+  flex-direction: column;  
+  
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+}
+  
+  
