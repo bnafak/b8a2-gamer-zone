@@ -12,7 +12,7 @@
 }
 .logo-container {
   width: 50%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   align-items: center;
 }
@@ -34,7 +34,7 @@
 
 .menu-item-container {
   width: 50%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -51,7 +51,7 @@
 }
 
 .banner-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -114,7 +114,7 @@ text-transform: uppercase;
 /* section one end  */
 
 .gamer-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
 }
@@ -172,14 +172,16 @@ height: 300px;
 
 /* girl ================================================ */
 .girl-container img{
-height: 300px;
+    height: 365px;
 }
 
 .angela{
     display: block;
      margin-left: auto;
     margin-right: auto;
-    margin-top:-200px;
+    margin-bottom: 50px;
+    margin-top:-290px;
+    border-radius: 5px;
 }
 
 /* girl ================================================ */
@@ -187,7 +189,7 @@ height: 300px;
 /* online 2nd part start */
 
 .onlive-game-container2 {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -227,7 +229,7 @@ color:rgb(235, 95, 118);
   margin-bottom: 10px;
   bouder: 1px solid blue;
 }
-/* ======================================== */
+/* ====Footer start==================================== */
 
 .ftr-container {
   border: 1px solid red;
@@ -268,3 +270,15 @@ color:rgb(235, 95, 118);
   text-align: center;
 }
 
+/* ======================== */
+.ftr-menu-bottom{
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    gap:30px;
+}
+.copy-right{
+    text-align: center;
+}
