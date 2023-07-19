@@ -57,7 +57,16 @@
     font-family: Work Sans;
     font-size: 48px;
     font-weight: 600;
-
+}
+.sign-in{
+    background-color:#f2b3b3;
+    padding:15px 30px;
+    border-radius: 5px;
+}
+.go-rogue{
+    background-color:#4EC5F7;
+    padding:15px 30px;
+    border-radius: 5px; 
 }
 .banner-left-container h1{
     background-image:linear-gradient(to bottom,red, blue) ;
@@ -153,7 +162,7 @@ text-align:center;
     margin: 30px auto;
 }
 .play-instant{
-    
+
 }
 .onlive-game-link img{
 width: 400px;
@@ -164,19 +173,38 @@ width: 400px;
 )
 .career-section{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .career-particulars{
-    width: 50%;
+    /* width: 50%; */
 }
-.career-picture{
+
+.career-particulars{
     width:50%;
 }
+
+.career-picture{
+    width:50%; 
+}
+
+.career-picture img{
+    width:300px;
+    
+}
+
+
 .game-app-container{
   width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+
+
 
 .ftr{
     border: 1px solid red;
