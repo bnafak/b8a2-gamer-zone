@@ -4,7 +4,6 @@
 }
 .nav-container {
   background-color: #ffffff;
-  /* border: 1px solid red; */
   min-height: 50px;
   max-width: 1400px;
   display: flex;
@@ -222,19 +221,17 @@ color:rgb(235, 95, 118);
 
 .game-app-bottom a:hover {
   color: red;
-  border-radius: 5px solid green;
-  width: 200px;
-  background-color: #4ec5f7;
-  height: 100px;
-  margin-bottom: 10px;
-  bouder: 1px solid blue;
+  border-radius: 15px solid green;
+  font-size: large;
+  border: 2px solid red;
+  /* margin-bottom: 50px; */
+  padding: 30px 40px;
 }
 /* ====Footer start==================================== */
 
 .ftr-container {
-  /* height: 400px; */
   max-width: 1400px;
-  /* background-color: rgb(42, 39, 44); */
+  background-color: rgba(233, 223, 239, 0.891); *
   color: white;
 }
 .ftr-container h1 {
@@ -245,6 +242,7 @@ color:rgb(235, 95, 118);
   margin-right: 20px;
   justify-content: space-around;
   align-items: center;
+  word-spacing: 30px;
 }
 .ftr-logo {
   display: flex;
@@ -260,15 +258,18 @@ color:rgb(235, 95, 118);
   color: white;
   text-align: center;
   gap: 100px;
+ 
 }
 
 .ftr-menu-bottom {
     flex-direction: row;
+    text-decoration: none;
 }
 
 /* ======================== */
 .ftr-menu-bottom{
   text-align: center;
+  word-spacing: 30px;
 }
 .copy-right{
     text-align: center;
@@ -276,6 +277,9 @@ color:rgb(235, 95, 118);
 
 .ftr-last{
 text-align: center;
+text-decoration: none;
+margin-bottom: 30px;
+padding: 20px;
 }
 
 
