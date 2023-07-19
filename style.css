@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,800;1,400;1,500;1,700&display=swap');
-*{
-    border:0px;
-    Margin:0px;
-}
 
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,800;1,400;1,500;1,700&display=swap');
 *{box-sizing: border-box;
 }
 .nav-container{
@@ -18,21 +15,22 @@
     width: 50%;
     border: 1px solid blue;
     display: flex;
+    align-items: center;
 }
 .logo-container gamer{
-    font-size:
+    text-align: center;
     font-family: Work Sans;
     font-size: 45px;
-    font-weight:700;
+    font-weight: 700;
 }
 .gamer{
     color: palevioletred;
 }
 
 .logo-container img{
-    width: 50px;
+    width: 30px;
     object-fit: cover;
-    margin: right 20px;
+    margin-right:10px;
 }
 
 .menu-item-container{
@@ -221,11 +219,11 @@ margin-bottom: 20px;
     bouder:1px solid blue;
 }
 
-.ftr{
-    height: 400px;
+.ftr-container{
     border: 1px solid red;
-    width:100%;
-    background-color: blueviolet;
+    height: 400px;
+    max-width: 1400px;
+    background-color: rgb(42, 39, 44);
     color: white;
 }
 
@@ -234,4 +232,19 @@ margin-bottom: 20px;
     margin-right:20px;
     justify-content: space-around;
     align-items: center;
+}
+.ftr-logo{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ftr-items{
+    display: flex;
+}
+.footer-icon{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    gap:100px;
 }
