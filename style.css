@@ -4,8 +4,8 @@
 }
 .nav-container {
   background-color: #ffffff;
-  min-height: 50px;
-  max-width: 1400px;
+  /* min-height: 50px;
+  max-width: 1400px; */
   display: flex;
   margin: 0 auto;
 }
@@ -13,12 +13,14 @@
   width: 50%;
   display: flex;
   align-items: center;
+  gap:10px;
 }
 .logo-container gamer {
   text-align: center;
   font-family: Work Sans;
   font-size: 45px;
   font-weight: 700;
+ 
 }
 .gamer {
   color: rgb(235, 127, 163);
@@ -27,7 +29,6 @@
 .logo-container img {
   width: 50px;
   object-fit: cover;
-  margin-right: 10px;
 }
 
 .menu-item-container {
@@ -130,9 +131,8 @@ color: #c46aa0;
     padding: 15px 30px;
     color: white;
     background-color: pink;
-    border-radius: 5px;
     border:none;
-}
+  }
 
 /* funny video section start */
 
@@ -159,14 +159,13 @@ height: 300px;
 .game-corner{
   position: relative;
 }
-.play-button{
-  position: absolute;
-  height: 30px;
+.onlive-game-description{
+  margin-top: 40px;
 }
-
 /* girl ================================================================= */
 .girl-container img{
     height: 365px;
+    margin-bottom: 100px;
 }
 .angela{
     display: block;
@@ -211,13 +210,13 @@ color:rgb(235, 95, 118);
 .game-start {
   margin-bottom: 20px;
 }
-
+/* =============================================== */
 .game-app-bottom a:hover {
   color: red;
-  border-radius: 15px solid green;
   font-size: large;
   border: 2px solid red;
-  padding: 15px 25px;
+  padding: 30px 25px 0 25px;
+  border-radius: 20px;
 }
 /* ====Footer start==================================== */
 
@@ -249,7 +248,6 @@ color:rgb(235, 95, 118);
   color: white;
   text-align: center;
   gap: 100px;
- 
 }
 
 .ftr-menu-bottom {
@@ -277,9 +275,11 @@ padding: 20px;
   .logo-container{
     margin: 5px auto;
   }
+  
   .menu-item-container{
     flex-direction: column;
     width: 100%;
+    gap: 30px;
   } 
 
   .nav-container{
@@ -301,6 +301,7 @@ padding: 20px;
 }
 .online-game-container2{
   flex-direction: column-reverse;
+  margin-bottom: 30px;
 }
 
 .girl-container img{
@@ -312,10 +313,16 @@ padding: 20px;
   /* margin-right: auto;  */
    margin-top:-360px;
 }
-
+.hide{
+  display: none;
+}
 .onlive-game-description{
  flex-direction: column; 
 }
+.stl-responsive{
+  display: flex;
+}
+
 
 }
   
