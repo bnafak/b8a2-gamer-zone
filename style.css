@@ -169,12 +169,18 @@ color: #c46aa0;
 .game-corner img{
 height: 300px;
 }
+.game-corner{
+  position: relative;
+}
+.play-button{
+  position: absolute;
+  height: 30px;
+}
 
-/* girl ================================================ */
+/* girl ================================================================= */
 .girl-container img{
     height: 365px;
 }
-
 .angela{
     display: block;
      margin-left: auto;
@@ -188,12 +194,12 @@ height: 300px;
 
 /* online 2nd part start */
 
-.onlive-game-container2 {
-  /* border: 1px solid green; */
+.online-game-container2 {
+  border: 1px solid green;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 30px auto;
+  /* margin: 30px auto; */
 }
 .play-instant{
 color:rgb(235, 95, 118);
@@ -299,7 +305,6 @@ padding: 20px;
   }
   .banner-container {
   flex-direction: column;  
-
 }
 } */
   
