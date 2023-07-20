@@ -115,11 +115,6 @@ text-transform: uppercase;
   display: flex;
   align-items: center;
 }
-.gamer-container img {
-  width: 700px;
-  object-fit: cover;
-  margin: right 20px;
-}
 .game-description h1 {
 color: #c46aa0;
   text-align: right;
@@ -131,12 +126,8 @@ color: #c46aa0;
     color: #534C64;
     text-align: right;
     font-family: Work Sans;
-    font-size: 18px;
 }
 
-.game-description {
-  width: 700px;
-}
 .gamer-btn{
     padding: 15px 30px;
     color: white;
@@ -193,12 +184,11 @@ height: 300px;
 /* online 2nd part start */
 
 .online-game-container2 {
-  border: 1px solid green;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* margin: 30px auto; */
 }
+
 .play-instant{
 color:rgb(235, 95, 118);
 }
@@ -301,6 +291,7 @@ padding: 20px;
 .banner-container{
   flex-direction: column-reverse;
 }
+.sign-gogue-btn{display: flex;}
 .gamer-container{
   flex-direction: column;
 }
@@ -308,9 +299,24 @@ padding: 20px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   text-align: center;
-
+}
+.online-game-container2{
+  flex-direction: column-reverse;
 }
 
+.girl-container img{
+  height: 250px;
+}
+.angela{
+  display: block;
+  margin-left: 0;
+  /* margin-right: auto;  */
+   margin-top:-360px;
+}
+
+.onlive-game-description{
+ flex-direction: column; 
+}
 
 }
   
